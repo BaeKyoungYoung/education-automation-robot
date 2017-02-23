@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20170222 16:13:44.743" generator="Robot 3.0.2 (Python 3.5.2 on win32)">
+<suite source="C:\run\eclipse_workspace\robotEnv" name="robotEnv" id="s1">
+<suite source="C:\run\eclipse_workspace\robotEnv\keyword_driven.robot" name="Keyword Driven" id="s1-s1">
+<test name="Degree Change TC_C1" id="s1-s1-t1">
+<kw library="DegreeLibrary" name="Degree Change C">
+<arguments>
+<arg>20</arg>
+</arguments>
+<status status="PASS" starttime="20170222 16:13:44.842" endtime="20170222 16:13:44.842"></status>
+</kw>
+<kw library="DegreeLibrary" name="Result Should BE">
+<arguments>
+<arg>-6.67</arg>
+</arguments>
+<status status="PASS" starttime="20170222 16:13:44.842" endtime="20170222 16:13:44.842"></status>
+</kw>
+<status status="PASS" starttime="20170222 16:13:44.827" critical="yes" endtime="20170222 16:13:44.842"></status>
+</test>
+<test name="Degree Change TC_F1" id="s1-s1-t2">
+<kw library="DegreeLibrary" name="Degree Change F">
+<arguments>
+<arg>20</arg>
+</arguments>
+<status status="PASS" starttime="20170222 16:13:44.842" endtime="20170222 16:13:44.842"></status>
+</kw>
+<kw library="DegreeLibrary" name="Result Should BE">
+<arguments>
+<arg>68</arg>
+</arguments>
+<status status="PASS" starttime="20170222 16:13:44.842" endtime="20170222 16:13:44.842"></status>
+</kw>
+<status status="PASS" starttime="20170222 16:13:44.842" critical="yes" endtime="20170222 16:13:44.842"></status>
+</test>
+<test name="Degree Change TC_C2" id="s1-s1-t3">
+<kw library="DegreeLibrary" name="Degree Change C">
+<arguments>
+<arg>20</arg>
+</arguments>
+<status status="PASS" starttime="20170222 16:13:44.858" endtime="20170222 16:13:44.858"></status>
+</kw>
+<kw library="DegreeLibrary" name="Result Should BE">
+<arguments>
+<arg>-6.67</arg>
+</arguments>
+<status status="PASS" starttime="20170222 16:13:44.858" endtime="20170222 16:13:44.858"></status>
+</kw>
+<status status="PASS" starttime="20170222 16:13:44.842" critical="yes" endtime="20170222 16:13:44.858"></status>
+</test>
+<test name="Degree Change TC_C3" id="s1-s1-t4">
+<kw library="DegreeLibrary" name="Degree Change F">
+<arguments>
+<arg>0</arg>
+</arguments>
+<status status="PASS" starttime="20170222 16:13:44.858" endtime="20170222 16:13:44.858"></status>
+</kw>
+<kw library="DegreeLibrary" name="Result Should BE">
+<arguments>
+<arg>32</arg>
+</arguments>
+<status status="PASS" starttime="20170222 16:13:44.858" endtime="20170222 16:13:44.858"></status>
+</kw>
+<status status="PASS" starttime="20170222 16:13:44.858" critical="yes" endtime="20170222 16:13:44.858"></status>
+</test>
+<test name="Degree Change TC_C4" id="s1-s1-t5">
+<kw library="DegreeLibrary" name="Degree Change C">
+<arguments>
+<arg>0</arg>
+</arguments>
+<status status="PASS" starttime="20170222 16:13:44.858" endtime="20170222 16:13:44.858"></status>
+</kw>
+<kw library="DegreeLibrary" name="Result Should BE">
+<arguments>
+<arg>-17.78</arg>
+</arguments>
+<status status="PASS" starttime="20170222 16:13:44.858" endtime="20170222 16:13:44.858"></status>
+</kw>
+<status status="PASS" starttime="20170222 16:13:44.858" critical="yes" endtime="20170222 16:13:44.858"></status>
+</test>
+<doc>Example test cases using the keyword-driven testing approach</doc>
+<status status="PASS" starttime="20170222 16:13:44.827" endtime="20170222 16:13:44.858"></status>
+</suite>
+<status status="PASS" starttime="20170222 16:13:44.774" endtime="20170222 16:13:44.858"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="5">Critical Tests</stat>
+<stat fail="0" pass="5">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="robotEnv" pass="5">robotEnv</stat>
+<stat fail="0" id="s1-s1" name="Keyword Driven" pass="5">robotEnv.Keyword Driven</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
